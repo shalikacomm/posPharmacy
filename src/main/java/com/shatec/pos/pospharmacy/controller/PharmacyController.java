@@ -17,7 +17,7 @@ public class PharmacyController {
 
     @Autowired
     UserService  userService;
-
+    // tester
     @RequestMapping(value = "/user",method = RequestMethod.POST)
     @CrossOrigin
     public User addUser(@RequestBody User user){
